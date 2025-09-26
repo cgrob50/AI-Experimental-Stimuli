@@ -12,7 +12,7 @@ We validate AI-generated police officer profiles as experimental stimuli in a 4 
   1. Trait recognition  
   2. Trait change detection  
   3. Impression ratings (competence, agency, warmth)  
-- **Sample**: 500 Prolific participants, 2,565 ratings.  
+- **Sample**: 513 Prolific participants, 2,565 ratings.  
 - **Findings**:  
   - High accuracy in identifying intended traits  
   - Reliable detection of manipulations  
