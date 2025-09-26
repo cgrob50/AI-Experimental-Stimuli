@@ -18,10 +18,6 @@ We validate AI-generated police officer profiles as experimental stimuli in a 4 
   - Reliable detection of manipulations  
   - Impression ratings reproduced known stereotypes (e.g., mesomorph advantage, warmth bias by gender/race).
  
-## Citation
-Robinson, C., Adams, I. T., Logan, M., & Blair, P. (2025).  
-*AI-Generated Human Stimuli for Experimental Social Science.* Draft manuscript.  
-
 
 ## Contact
 Chandler Robinson  
