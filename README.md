@@ -1,6 +1,6 @@
----
-title: "AI-Generated Officer Profiles for Experimental Research"
----
+
+# AI-Generated Officer Profiles for Experimental Research
+
 
 ## Overview
 This project accompanies the manuscript *AI-Generated Human Stimuli for Experimental Social Science* (Robinson et al. 2025).  
