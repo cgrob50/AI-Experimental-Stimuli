@@ -1,6 +1,5 @@
 ---
 title: "AI-Generated Officer Profiles for Experimental Research"
-output: github_document
 ---
 
 ## Overview
@@ -19,4 +18,7 @@ We validate AI-generated police officer profiles as experimental stimuli in a 4 
   - Reliable detection of manipulations  
   - Impression ratings reproduced known stereotypes (e.g., mesomorph advantage, warmth bias by gender/race).  
 
-## Repository Structure
+## Contact
+Chandler Robinson  
+University of Utah  
+<Chandler.Robinson@utah.edu>
