@@ -1,0 +1,41 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={* p < 0.05, ** p < 0.01, *** p < 0.001},
+note{ }={Reference categories: White, Male, Ectomorph. Models include random intercepts for respondent and profile.},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]},
+column{1}={halign=l,},
+column{2}={halign=c,},
+column{3}={halign=c,},
+column{4}={halign=c,},
+hline{16}={1,2,3,4}{solid, 0.05em, black},
+}                     %% tabularray inner close
+\toprule
+& Competence & Agency & Warmth \\ \midrule %% TinyTableHeader
+Intercept                    & \num{5.017}***  & \num{4.917}***  & \num{3.999}*** \\
+& (\num{0.093})   & (\num{0.102})   & (\num{0.111})  \\
+Black officer                & \num{0.067}     & \num{0.113}     & \num{0.272}*   \\
+& (\num{0.091})   & (\num{0.103})   & (\num{0.109})  \\
+Latino officer               & \num{0.051}     & \num{0.038}     & \num{0.220}*   \\
+& (\num{0.091})   & (\num{0.103})   & (\num{0.109})  \\
+Asian officer                & \num{0.156}     & \num{-0.012}    & \num{0.312}**  \\
+& (\num{0.090})   & (\num{0.103})   & (\num{0.109})  \\
+Female officer               & \num{-0.038}    & \num{-0.108}    & \num{0.173}*   \\
+& (\num{0.064})   & (\num{0.073})   & (\num{0.077})  \\
+Mesomorph                    & \num{0.376}***  & \num{0.555}***  & \num{0.215}*   \\
+& (\num{0.079})   & (\num{0.089})   & (\num{0.094})  \\
+Endomorph                    & \num{-0.625}*** & \num{-0.608}*** & \num{-0.037}   \\
+& (\num{0.078})   & (\num{0.089})   & (\num{0.094})  \\
+Num.Obs.                     & \num{2565}      & \num{2565}      & \num{2565}     \\
+R2 Marg.                     & \num{0.105}     & \num{0.134}     & \num{0.017}    \\
+R2 Cond.                     & \num{0.617}     & \num{0.572}     & \num{0.595}    \\
+ICC                          & \num{0.6}       & \num{0.5}       & \num{0.6}      \\
+RMSE                         & \num{0.72}      & \num{0.77}      & \num{0.80}     \\
+Random intercept: respondent & Yes              & Yes              & Yes             \\
+Random intercept: profile    & Yes              & Yes              & Yes             \\
+\bottomrule
+\end{talltblr}
+\end{table}

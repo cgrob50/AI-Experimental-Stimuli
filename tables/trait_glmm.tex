@@ -1,0 +1,39 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={* p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
+note{ }={Reference categories: White, Male, Ectomorph. Models include random intercepts for respondent and profile.},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]},
+column{2-4}={}{halign=c,},
+column{1}={}{halign=l,},
+hline{16}={1-4}{solid, black, 0.05em},
+}                     %% tabularray inner close
+\toprule
+& Gender recognition & Race recognition & Body type recognition \\ \midrule %% TinyTableHeader
+Intercept & \num{16.149}*** & \num{4.883}*** & \num{3.018}*** \\
+& (\num{2.186}) & (\num{0.560}) & (\num{0.517}) \\
+Female & \num{-4.447}*** & \num{-0.989}** & \num{-0.569} \\
+& (\num{1.050}) & (\num{0.379}) & (\num{0.392}) \\
+Black & \num{-0.546} & \num{1.903}** & \num{0.296} \\
+& (\num{1.201}) & (\num{0.680}) & (\num{0.550}) \\
+Asian & \num{0.998} & \num{-1.538}** & \num{-0.069} \\
+& (\num{1.303}) & (\num{0.504}) & (\num{0.555}) \\
+Latino & \num{-0.327} & \num{-1.798}*** & \num{-0.195} \\
+& (\num{1.293}) & (\num{0.503}) & (\num{0.546}) \\
+Mesomorph & \num{-0.961} & \num{0.031} & \num{-1.298}** \\
+& (\num{1.126}) & (\num{0.471}) & (\num{0.466}) \\
+Endomorph & \num{-1.256} & \num{-0.747} & \num{1.088}* \\
+& (\num{1.143}) & (\num{0.455}) & (\num{0.501}) \\
+Num.Obs. & \num{2565} & \num{2565} & \num{2565} \\
+R2 Marg. & \num{0.067} & \num{0.303} & \num{0.157} \\
+R2 Cond. & \num{0.960} & \num{0.616} & \num{0.517} \\
+ICC & \num{1.0} & \num{0.4} & \num{0.4} \\
+RMSE & \num{0.09} & \num{0.22} & \num{0.28} \\
+Random intercept: respondent & Yes & Yes & Yes \\
+Random intercept: profile & Yes & Yes & Yes \\
+\bottomrule
+\end{talltblr}
+\end{table}
